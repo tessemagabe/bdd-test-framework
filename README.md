@@ -6,7 +6,6 @@
 - **BDD with Cucumber** – Step definitions (`LoginSteps.java`) and feature files (`Login.feature`).
 - **Page Object Model (POM)** – Centralized UI elements in `LoginPage.java`.
 - **Selenium WebDriver Integration** – UI automation tests executed via `TestRunner.java`.
-- **Logging** – Implemented using `logback-classic` and `log4j-core` for detailed test reports.
 - **Automated Driver Management** – Uses `WebDriverManager` for streamlined browser execution.
 
 ## Project Structure Overview
