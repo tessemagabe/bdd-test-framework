@@ -14,3 +14,14 @@
 - `src/test/resources/features` – Gherkin-based feature files for BDD test scenarios.
 - `screenshots` – Stores test execution images.
 - `pom.xml` – Maven dependencies and configurations.
+
+## CI/CD Pipeline with GitHub Actions   
+To ensure continuous integration and automated testing, **MavenTestKombined** utilizes **GitHub Actions** for its **CI/CD pipeline**.  
+
+### **How It Works:**
+1. **Triggers** – The pipeline runs automatically on each `push` or `pull request` to the `main` branch.  
+2. **Environment Setup** – It sets up **JDK 17**, downloads project dependencies, and initializes the Maven build.  
+3. **Automated Testing** – Runs all tests using:  
+   ```bash
+   mvn -B test
+
